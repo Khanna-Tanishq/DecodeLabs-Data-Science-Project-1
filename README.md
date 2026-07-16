@@ -26,3 +26,18 @@ This project focuses on the structural engineering of mathematical truth for mac
 * **Languages:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Pandera, Feast
 * **Environment:** Google Colab
+
+
+# The Repository Folder Structure
+
+DecodeLabs-Data-Science-Project-1/
+├── data/
+│   ├── raw_dataset.csv             # Your initial uncleaned data
+│   └── cleaned_dataset.parquet     # The final validated output
+├── notebooks/
+│   └── Project_1_Advanced_EDA.ipynb # Your Colab notebook
+├── feature_repo/                   # (Optional) If you completed the Feast integration
+│   ├── features.py
+│   └── feature_store.yaml
+├── requirements.txt                # List of libraries (pandas, numpy, pandera, feast)
+└── README.md                       # The front page of your project
